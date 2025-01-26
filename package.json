@@ -1,6 +1,6 @@
 {
   "name": "startteste",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Teste de como criar um npm package",
   "main": "src/index.js",
   "types": "dist/index.d.ts",
