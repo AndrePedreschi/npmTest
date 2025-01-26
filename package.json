@@ -1,9 +1,9 @@
 {
   "name": "startteste",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Teste de como criar um npm package",
   "main": "src/index.js",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "test": "tsx src/index.ts"
   },
