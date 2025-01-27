@@ -1,11 +1,14 @@
 {
   "name": "startteste",
-  "version": "1.0.8",
+  "version": "1.0.12",
   "description": "Teste de como criar um npm package",
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "test": "tsx src/index.ts"
+    "test": "tsx src/test/test.ts",
+    "build": "npx tsc",
+    "publish": "npm publish"
   },
   "author": "André",
   "license": "ISC",
@@ -15,9 +18,5 @@
   "devDependencies": {
     "@types/node": "^22.10.10",
     "typescript": "^5.7.3"
-  },
-  "files": [
-    "dist",
-    "index.d.ts"
-  ]
+  }
 }
